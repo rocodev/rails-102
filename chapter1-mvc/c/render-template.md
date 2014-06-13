@@ -4,7 +4,7 @@ render 的中文意思是「渲染」，所以 render template就是「渲染」
 
 舉例說明：
 
-render 特定的模板
+### render 特定的模板
 
 render views/foo/bar.html.erb
 
