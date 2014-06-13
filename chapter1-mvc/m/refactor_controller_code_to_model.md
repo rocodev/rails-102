@@ -1,4 +1,4 @@
-# refactor controller code to model
+# Refactor controller code to model
 
 
 我們應該儘量把跟資料庫有關的操作都搬回model，例如以下幾個情況：
