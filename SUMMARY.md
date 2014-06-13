@@ -38,7 +38,6 @@
    * [Rack](chapter2-rails/rack.md)
    * [Rake](chapter2-rails/rake.md)
    * [Bundler](chapter2-rails/bundler.md)
-   * [Unobtrusive Javascript](chapter2-rails/unobtrusive_javascript.md)
    * [I18n](chapter2-rails/i18n.md)
 * [Chapter3 - 關於ruby](chapter3-ruby/README.md)
    * [Ruby syntax](chapter3-ruby/ruby_syntax.md)
