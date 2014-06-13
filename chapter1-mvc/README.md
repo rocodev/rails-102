@@ -11,7 +11,7 @@ MVC指是Ｍ(Model)、Ｖ(View)、Ｃ(Controller)，是軟體開發的一種架�
 
 [View](v/what-is-view.md)
 
-[Controller](controller.md)
+[Controller](c/what-is-controller.md)
 
 
 
