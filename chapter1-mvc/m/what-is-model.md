@@ -2,14 +2,14 @@
 
 ## Model是什麼？
 
-Model是繼承於ActiveRecord的Class，所以每個Model都可以取用ActiveRecord裡面的Method，例如我們有一個Model叫做Post，這個Model會長這樣：
+Model是 繼承於 ActiveRecord 的 Class，所以每個 Model 都可以取用 ActiveRecord 裡面的 Method，例如我們有一個 Model叫做 Post，這個Model會長這樣：
 
 ```ruby
 class Post < ActiveRecord::Base
 end
 
 ```
-而這個Model將會負責操作`Posts`的資料庫，由於Post Model繼承ActiveRecord，所以我們可以用ActiveRecord的method，例如：
+而這個 Model 將會負責操作`Posts`的資料庫，由於Post Model繼承ActiveRecord，所以我們可以用ActiveRecord的method，例如：
 
 ```ruby
 # first就是ActiveRecord的Method

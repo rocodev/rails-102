@@ -1,6 +1,7 @@
 # 不應該放在 view 裡的東西
 
-邏輯判斷
+### 邏輯判斷
+
 ```erb
 <% if topic.present? %>
 	<%= @topic.title %>
@@ -16,7 +17,8 @@ ruby block
 <% end %>
 ```
 
-撈Model資料的code
+### 撈 Model資料的code
+
 ```erb
 <%= Topic.find(params[:id]).title %>
 ```

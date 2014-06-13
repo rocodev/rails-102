@@ -1,10 +1,11 @@
 # 什麼是 partial
 
-Partial簡單說就是程式碼中的一小段，通常使用在HTML中讓View的Code可以更乾淨，將重複使用到的區塊切成獨立的Partial，比方說頁首頁尾、表單、社群插件等等，讓任何一個頁面都可以讀取這段Partial而不用重複寫一次一模一樣的Code。
+Partial 簡單說就是程式碼中的一小段，通常使用在 HTML 中讓 View的Code 可以更乾淨，將重複使用到的區塊切成獨立的 Partial，比方說頁首頁尾、表單、社群插件等等，讓任何一個頁面都可以讀取這段Partial而不用重複寫一次一模一樣的Code。
 
-假設我們常常需要在頁面產生topics的列表，就可以考慮將列表包裝成partial，這樣每個頁面需要時只要render這個partial就可以了。
+假設我們常常需要在頁面產生 topics 的列表，就可以考慮將列表包裝成 partial，這樣每個頁面需要時只要 render 這個 partial 就可以了。
 
-_topic_list.html.erb
+`_topic_list.html.erb`
+
 ```erb
 <ul>
 <% @topics.each do |topic| %>
@@ -14,9 +15,11 @@ _topic_list.html.erb
 <% end %>
 </ul>
 ```
+
 這樣頁面就會變得很簡單：
 
- index.html.erb
+`index.html.erb`
+
 ```erb
 ...
 <%= render "topic_list" %>
