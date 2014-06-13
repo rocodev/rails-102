@@ -201,6 +201,6 @@ end
 
 8.Nested Model Forms
 
-http://waynechu.logdown.com/posts/201843-nested-model-form
+TO BE MOVE http://waynechu.logdown.com/posts/201843-nested-model-form
 
 [參考資料](http://rails-bestpractices.com/posts/9-nested-model-forms)
