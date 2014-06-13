@@ -2,7 +2,7 @@
 
 * [chapter1 - 關於MVC](chapter1-mvc/README.md)
    * [Model](chapter1-mvc/1-what-is-model.md)
-       * [has_many :through](chapter1-mvc/test.md)
+       * [has_many :through](chapter1-mvc/1-1-has-many-through.md)
        * [validation](chapter1-mvc/validation.md)
        * [scope](chapter1-mvc/scope.md)
        * [ids](chapter1-mvc/ids.md)
