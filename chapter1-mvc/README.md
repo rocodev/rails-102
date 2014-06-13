@@ -7,7 +7,7 @@ MVC指是Ｍ(Model)、Ｖ(View)、Ｃ(Controller)，是軟體開發的一種架�
 
 ## MVC三部曲：
 
-[Model](1-what-is-model.md)
+[Model](m/what-is-model.md)
 
 [View](gk6ia72j2_vu_u_e9.md)
 

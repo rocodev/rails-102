@@ -2,7 +2,7 @@
 
 scope 的作用就是將時常使用或是複雜的ORM語法組合成懶人包，這樣下次要用的時候只要把懶人包拿出來就可以了，舉例說明：
 
-### ```ruby
+```ruby
 class Topic < ActiveRecord::Base
 	scope :recent, -> { order("created_at DESC") } 
 end
