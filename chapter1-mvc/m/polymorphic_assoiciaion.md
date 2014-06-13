@@ -51,3 +51,4 @@ end
 ## 參考資料
 
 * http://guides.rubyonrails.org/association_basics.html#polymorphic-associations
+* http://railscasts.com/episodes/154-polymorphic-association
