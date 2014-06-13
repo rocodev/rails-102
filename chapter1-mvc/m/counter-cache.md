@@ -1,6 +1,6 @@
 # counter_cache
 
-counter_cache是在做關聯性資料庫時計算資料量的一個方法
+`counter_cache` 是在做關聯性資料庫時計算資料量的一個方法。
 
 
 照樣舉「Board」has_many「Topics」的例子來看

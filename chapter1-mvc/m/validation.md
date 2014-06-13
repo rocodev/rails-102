@@ -28,6 +28,6 @@ topic.save!
 
 ## 參考資料
 
-除了上述兩種驗證方式，尚有驗證文字格式、數字、唯一等等，可以查看[Rails Guide](http://guides.rubyonrails.org/active_record_validations.html)得到更多資訊。
+除了上述兩種驗證方式，尚有驗證文字格式、數字、唯一等等，可以查看 [Rails Guide](http://guides.rubyonrails.org/active_record_validations.html) 得到更多資訊。
 
 

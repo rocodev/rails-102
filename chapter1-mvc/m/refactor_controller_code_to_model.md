@@ -1,17 +1,18 @@
 # refactor controller code to model
 
 
-我們應該儘量把跟資料庫有關的操作都搬回model，例如以下：幾個情況：
+我們應該儘量把跟資料庫有關的操作都搬回model，例如以下幾個情況：
 
 
-##1.把應該是在model內的邏輯搬回去
-舉例：
+## 1.把應該是在model內的邏輯搬回去
 
-當user發佈post時就可以根據內容多寡得到虛擬幣，最多500元，controller中寫法如下
 
-#### Refactor前：
+當 User 發佈 posts 時可以根據內容多寡得到虛擬幣，最多500元，controller 中寫法如下：
 
- post_controller.rb
+#### Refactor 前：
+
+`post_controller.rb`
+
 ```ruby
 def publish
   @post = Post.find(params[:id])
@@ -24,9 +25,10 @@ def publish
   redirect_to post_path(@post)
 end
 ```
-#### Refactor後：
+#### Refactor 後：
 
- post_controller.rb
+`post_controller.rb`
+
 ```ruby
 def publish
   @post = Post.find(params[:id])
@@ -35,7 +37,8 @@ def publish
 end
 ```
 
-model/post.rb
+`model/post.rb`
+
 ```ruby
 def publish
   self.update(:is_published => true)
@@ -48,15 +51,15 @@ end
 ```
 
 
-##2.多利用scope，把ORM的邏輯都放回model
+## 2.利用scope，把 ORM 的邏輯都整理 Model 
 
-見[scope介紹](scope.md)
+見 [scope介紹](scope.md)
 
 
+## 3.讓 ActiveRecord 建立關聯而不是自己土法煉鋼，直接看範例：
 
-##3.讓ActiveRecord建立關聯而不是自己土法煉鋼，直接看範例：
+#### Refactor 前：
 
-#### Refactor前：
 ```ruby
 class PostsController < ApplicationController
   def create
@@ -66,7 +69,9 @@ class PostsController < ApplicationController
   end
 end
 ```
-#### Refactor後：
+
+#### Refactor 後：
+
 ```ruby
 class PostsController < ApplicationController
   def create
@@ -80,14 +85,17 @@ class User < ActiveRecord::Base
 end
 ```
 
-[參考資料](http://rails-bestpractices.com/posts/2-use-model-association)
+#### 參考資料
+
+* http://rails-bestpractices.com/posts/2-use-model-association
 
 
-##4.Use scope access
+## 4.Use scope access
 
 scope access可以讓我們避免掉許多不必要的判斷，請直接看例子，此例使用current_user就可以省去判斷user的情況。
 
 #### Refactor前：
+
 ```ruby
 class PostsController < ApplicationController
   def edit
@@ -99,7 +107,9 @@ class PostsController < ApplicationController
   end
 end
 ```
+
 #### Refactor後：
+
 ```ruby
 class PostsController < ApplicationController
   def edit
@@ -108,18 +118,23 @@ class PostsController < ApplicationController
 end
 ```
 
-[參考資料](http://rails-bestpractices.com/posts/3-use-scope-access)
+#### 參考資料
+
+* http://rails-bestpractices.com/posts/3-use-scope-access
 
 
-##5.Add model virtual attribute
+## 5. use Model virtual attribute
 
-有時候由於表單的設計方式與model內的attribute不同，我們會需要將表單的資料拆解後再送給資料庫，例如資料庫內有'first_name'和'last_name'但是表單只有'full_name'
+有時候由於表單的設計方式與 Model 內的 attribute 不同，我們會需要將表單的資料拆解後再送給資料庫，例如資料庫內有 `first_name`和`last_name`但是表單只有`full_name`。
 
 #### Refactor前：
-不好的寫法：
 
-在controller裡面將params的資料切開，並存進資料庫
+（不好的寫法）
+
+在 controller 裡面將 params 的資料切開，並存進資料庫：
+
 ```ruby
+
 <% form_for @user do |f| %>
   <%= text_field_tag :full_name %>
 <% end %>
@@ -135,7 +150,8 @@ end
 ```
 
 #### Refactor後：
-比較好的寫法：
+
+（比較好的寫法）
 
 ```ruby
 class User < ActiveRecord::Base
@@ -163,12 +179,17 @@ class UsersController < ApplicationController
 end
 ```
 
-如此一來controller變得超乾淨！！
+如此一來 Controller 將變得超乾淨
 
+#### 參考資料
 
-[參考資料](http://rails-bestpractices.com/posts/4-add-model-virtual-attribute)
+* http://rails-bestpractices.com/posts/4-add-model-virtual-attribute
 
-##TODO：
+[]()
+
+<hr>
+
+## TODO：
 
 6.Use model callback
 
