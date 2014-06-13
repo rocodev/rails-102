@@ -17,9 +17,9 @@ Helper 是以 module 的形態存在的，在 Rails內 負責寫 View 要用到�
 
 以下一些常見的 helper 設計方法舉例：
 
-#### 1.儘量避免太多html code（無論ruby的或純html）
+#### 1. 儘量避免太多html code（無論ruby的或純html）
 
-#### 2.View裡面有太多讓人難以理解的判斷時，裝在helper裡面並語意命名，讓view更能理解
+#### 2. View裡面有太多讓人難以理解的判斷時，裝在helper裡面並語意命名，讓view更能理解
 
 ```ruby
 <% if current_user && current_user = @topic.user_id %>
