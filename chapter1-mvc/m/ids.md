@@ -22,7 +22,7 @@ rails就會根據`material_ids`幫我們建立關聯。
 <% end %>
 ```
 
-其他可參考的補充資料：
+## 參考資料
 
 
 * http://railscasts.com/episodes/17-habtm-checkboxes

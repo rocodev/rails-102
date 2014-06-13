@@ -24,6 +24,7 @@ t.collect(&:id).collect(&:to_f)
 # => [1.0,2.0]
 ```
 
-參考資料：
+## 參考資料
+
 * http://stackoverflow.com/questions/5254732/difference-between-map-and-collect-in-ruby
 * http://rubyinrails.com/2014/01/ruby-difference-between-collect-and-map/

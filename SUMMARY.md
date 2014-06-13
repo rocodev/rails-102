@@ -24,7 +24,7 @@
        * [essential helpers](chapter1-mvc/v/essential_helpers.md)
        * [helper patterns](chapter1-mvc/v/helper_patterns.md)
    * [Controller](chapter1-mvc/c/controller.md)
-       * [filters : before_filter, after_filter, around_filter](chapter1-mvc/c/filters__before_filter,_after_filter,_around_filter.md)
+       * [filters : before_filter, after_filter, around_filter](chapter1-mvc/c/filters.md)
        * [render :template](chapter1-mvc/c/render_template.md)
        * [render :layout](chapter1-mvc/c/render_layout.md)
        * [render :text](chapter1-mvc/c/render_text.md)
