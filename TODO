@@ -1,5 +1,10 @@
+
 Refactor:
  ☐ refactor_controller_code_to_model
+
+Controller: 
+ ☐ json builder
+ ☐ rss builder
 Helpers:
  ☐ Helper Patterns
  ☐ essential helpers
