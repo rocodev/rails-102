@@ -2,7 +2,7 @@
 
 partial負責處理大片的 HTML code，或是之後要利用 ajax render 出來的片段。
 
-helper 則負責處理跟邏輯判斷有關的東西，比方判斷文章發佈狀態或是讀取變數的值等等。
+helper 則負責處理跟邏輯判斷有關的東西。
 
 `topics_helper.rb`
 
