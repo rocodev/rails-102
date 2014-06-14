@@ -2,7 +2,7 @@
 
 > Rack provides a minimal interface between webservers supporting Ruby and Ruby frameworks.
 
-簡單來講 Rack 就是讓 Ruby 以及 Ruby Web 框架跟 Web Server互動的橋樑，所有與 Server 的互動都會經過 Rack。
+簡單來講 Rack 就是讓 Ruby 以及 Ruby Web 框架跟 Web Server 互動的橋樑，所有與 Server 的互動都會經過 Rack。
 
 所以確切的說，我們幾乎在 Rails controller / route 內寫的大部分 code 都是在跟 Rack 互動，Rack會負責再幫我們跟 Server互動，扮演秘書的角色。
 
@@ -12,9 +12,8 @@
 而這個SPEC其實就是一個帶 environment 參數的call method，由 Rack跟 server 拿這個enviroment應該要回傳的資料，並回串一個由三個主要區塊「HTTP狀態」、「HTTP Headers」、「HTTP內容」組成的字串。
 
 
-而所謂的 Rack middleware就是指在 Rack 和 Application 中間的 application，我們的每個request其實都是經過很多層的middleware才傳到Rails App中，所以有些不需要給 Rails處理的工作就可以在middleware中做，對效能有幫助。
+而所謂的 Rack middleware 就是指在 Rack 和 Application 中間的 application，我們的每個request其實都是經過很多層的middleware才傳到Rails App中，所以有些不需要給 Rails處理的工作就可以在middleware中做，對效能有幫助。
 
-TODO: Learn what is `rails Metal`
 
 
 ## 參考資料：
