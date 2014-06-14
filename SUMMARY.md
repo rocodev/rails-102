@@ -68,5 +68,6 @@
    * [邏輯慣例](chapter4-ruby/logic.md)
        * [if / else 的 Fail Close 安全觀念](chapter4-ruby/if-else-security.md)
        * [三重運算子簡化 if / else](chapter4-ruby/if-else-3.md)
-   * [其他慣例](chapter4-ruby/other.md)
+   * [字串慣例](chapter4-ruby/string.md)
+   * [陣列慣例](chapter4-ruby/array.md)
 
