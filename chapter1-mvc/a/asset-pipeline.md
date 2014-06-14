@@ -19,7 +19,6 @@ Asset Pipeline 是一套讓開發者很方便能夠削減 (minify) 以及 壓縮
 ### Minimize HTTP Requests
 
 ``` erb
-
 <%= stylesheets_include_tag "aaa", "bbb", :cache => true %>
 <%= javascrupt_link_tag "ccc", "ddd", :cache => "customized-functions" %>
 
@@ -68,7 +67,6 @@ Rails 原先內建的功能，充其量只有將這些檔案「打包」，並�
 舊有的 Rails asset 是採用 query string 的方式，來達到 invalid browser cache 的作用。如：
 
 ```erb
-
  <%= image_tag("example.gif") %>
 ```
 
