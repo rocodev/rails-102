@@ -1,6 +1,6 @@
 # 什麼東西應該放在 partial / 什麼東西應該放在 helper
 
-partial負責處理大片的 HTML code，或是之後要利用 ajax render 出來的片段。
+partial 負責處理大片的 HTML code，或是之後要利用 ajax render 出來的片段。
 
 helper 則負責處理跟邏輯判斷有關的東西。
 

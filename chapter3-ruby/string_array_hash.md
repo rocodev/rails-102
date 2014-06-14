@@ -12,15 +12,18 @@
 
 因此我們可以呼叫各別的class method，例如：
 
-* String：字串
+###  String：字串
+
 ```ruby
 "hello world".capitalize # => "Hello World"
 ```
-* Array：陣列
+###  Array：陣列
+
 ```ruby
 [ "a", "b" ] << [ "c", "d", "e" ] # => [ "a", "b", "c", "d", "e" ]
 ```
-* Hash：由key-value鍵組成的檔案形態
+###  Hash：由 key-value 鍵組成的檔案形態
+
 ```ruby
 {:name => "hello"}.empty?   #=> false
 {}.empty?   #=> true
