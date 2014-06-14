@@ -36,7 +36,7 @@ end
 
 ### 可以串接在一起，順序沒有影響
 
-``ruby
+```ruby
 class Event < ActiveRecord::Base
   scope :published, -> { where(published: true) }
   scope :created_before, ->(time) { where("created_at < ?", time) }
