@@ -4,7 +4,6 @@
 #### 定義 method 要加括號。除非沒有參數。
 
 ``` ruby
-
 # 有括號
 def find_book(author,title, options={})
   # ....
@@ -14,13 +13,11 @@ end
 def word_count
   # ....
 end
-
 ```
 
 #### 使用 method 要加括號。除非是 statement 或 command
 
 ``` ruby
-
 # 有括號
 
 link_to("Back", post_path(post))
@@ -28,13 +25,11 @@ link_to("Back", post_path(post))
 # 無括號
 
 redirect_to post_path(post)
-
 ```
 
 #### statement 多數時候要加括號，但如果狀況單純可不加括號
 
 ``` ruby
-
 # 無括號
 
 if post.content_size > 100
@@ -99,7 +94,6 @@ class Bar < Foo
     super()
   end
 end
-
 ```
 
 執行 

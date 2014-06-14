@@ -8,7 +8,7 @@ unless 等於 「if not something 」等於 「if !something」。
 
 不過雖說 Ruby 提供了 unless 這個用法，但在實務上來說，一般還是不太推薦使用 unless。除了以下幾種狀況：
 
-### 當語意較適合時，使用 unless
+#### 當語意較適合時，使用 unless
 
 ``` ruby
 unless content.blank?
@@ -16,7 +16,7 @@ unless content.blank?
 end
 ```
 
-### 沒有 else 的時候，使用 unless
+#### 沒有 else 的時候，使用 unless
 
 當沒有 else 的時候，看起來還算 OK
 
@@ -46,7 +46,7 @@ else
 end  
 ```
 
-### 當只有一個條件時，使用 unless 很適合。但多個條件時，使用 unless 很糟糕。
+#### 當只有一個條件時，使用 unless 很適合。但多個條件時，使用 unless 很糟糕。
 
 ``` ruby
 unless foo? && baz?

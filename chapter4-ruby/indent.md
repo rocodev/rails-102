@@ -21,11 +21,11 @@ Sublime Text2 設定, Settings Default =>
 
 
 ```
-    // The number of spaces a tab is considered equal to
-    "tab_size": 2,
+// The number of spaces a tab is considered equal to
+"tab_size": 2,
 
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
+// Set to true to insert spaces when tab is pressed
+"translate_tabs_to_spaces": true,
 ```
 
 ### 必裝 Submlime Text2 套件

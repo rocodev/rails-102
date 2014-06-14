@@ -35,7 +35,6 @@ Ruby 中跑迴圈的方式可以有很多種，最常使用的是 for 和 each
 使用無窮迴圈測試四種常見迴圈寫法。
 
 ``` ruby
-
 Benchmark.bm do |x|
 
   x.report('while1') do
