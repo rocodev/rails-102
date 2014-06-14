@@ -66,7 +66,7 @@
    * [括號慣例](chapter4-ruby/bracket.md)
    * [布林慣例](chapter4-ruby/boolean.md)
    * [邏輯慣例](chapter4-ruby/logic.md)
-   * [if / else 的 Fail Close 安全觀念](chapter4-ruby/if-else-security.md)
-   * [三重運算子簡化 if / else](chapter4-ruby/if-else-3.md)
+       * [if / else 的 Fail Close 安全觀念](chapter4-ruby/if-else-security.md)
+       * [三重運算子簡化 if / else](chapter4-ruby/if-else-3.md)
    * [其他慣例](chapter4-ruby/other.md)
 
