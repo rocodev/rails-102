@@ -33,6 +33,7 @@
        * [redirec_to 與 render](chapter1-mvc/c/redirec_to__render.md)
        * [respond_to 與 respond_with](chapter1-mvc/c/respond_to__respond_with.md)
        * [builders](chapter1-mvc/c/builders.md)
+   * [Asset Pipeline](chapter1-mvc/a/asset-pipeline.md)
 * [Chapter 2 - 關於Rails](chapter2-rails/README.md)
    * [RESTful](chapter2-rails/restful.md)
    * [Routing](chapter2-rails/routing.md)
