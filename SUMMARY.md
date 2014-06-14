@@ -35,7 +35,7 @@
        * [builders](chapter1-mvc/c/builders.md)
    * [Asset Pipeline](chapter1-mvc/a/asset-pipeline.md)
        * [Sass / SCSS](chapter1-mvc/a/sass-scss.md)
-       * [Compass](chapter1-mvc/a/sass-scss.md)
+       * [Compass](chapter1-mvc/a/compass.md)
        * [CoffeeScript](chapter1-mvc/a/coffeescript.md)
 * [Chapter 2 - 關於Rails](chapter2-rails/README.md)
    * [RESTful](chapter2-rails/restful.md)
