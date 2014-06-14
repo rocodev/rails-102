@@ -1,4 +1,4 @@
-# Chapter2 - 關於Rails
+# Chapter 2 - 關於Rails
 
 ## Ruby on Rails
 
