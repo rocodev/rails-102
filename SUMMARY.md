@@ -25,6 +25,7 @@
        * [helper patterns](chapter1-mvc/v/helper-patterns.md)
    * [Controller](chapter1-mvc/c/controller.md)
        * [Filters : before_action, after_action, around_action](chapter1-mvc/c/filters.md)
+       * [Strong Parameters](chapter1-mvc/c/strong_parameters.md)
        * [render :template](chapter1-mvc/c/render-template.md)
        * [render :layout](chapter1-mvc/c/render-layout.md)
        * [render :text](chapter1-mvc/c/render-text.md)
