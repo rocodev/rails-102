@@ -30,3 +30,7 @@ test = Test.new  # => #<Test:0x007fd103969840>
 test.class_method # => undefined method `class_method' for #<Test:0x007fd103969840>
 test.instance_method # => "instance method"
 ```
+
+## 參考資源
+
+* http://railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby

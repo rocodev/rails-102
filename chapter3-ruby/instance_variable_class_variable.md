@@ -43,3 +43,7 @@ jason = Kid.new
 # wayne.grow_up改變的是wayne這個實例內的instance variable，所以不影響jason這個實例
 jason.show_age # => 1
 ```
+
+## 參考資源
+
+* http://railstips.org/blog/archives/2006/11/18/class-and-instance-variables-in-ruby/

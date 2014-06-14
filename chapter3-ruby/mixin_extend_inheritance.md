@@ -61,3 +61,7 @@ son.laugh # => "heeeeeeeeha!"
 #Child也繼承了Parent的實例變數
 son.last_name # => "james"
 ```
+
+## 參考資源
+
+* http://railstips.org/blog/archives/2009/05/15/include-vs-extend-in-ruby/
