@@ -7,19 +7,15 @@
 * 被判斷為 foo = ( 42 && foo ) / 2
 
 ``` ruby
-
 foo = 42 && foo / 2  
 => NoMethodError: undefined method '/' for nil:NilClass
-
 ``` 
 
 #### 使用 and
 
 ``` ruby
-
 food = 42 and foo / 2
 => 21
-
 ```
 
 ### and 與 or 真正的用法
@@ -34,7 +30,6 @@ next if widget = widgets.pop
 
 ``` ruby 
 widget = widgets.pop and next  
-
 ```
 
 #### or 的用法
