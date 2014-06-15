@@ -1,6 +1,5 @@
 # Helper Patterns
 
-
 Helper 是以 module 的形態存在的，在 Rails內 負責寫 View 要用到的method。
 
 所以設計時能夠保持「簡單」且「可重複使用」是最重要的。

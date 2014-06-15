@@ -4,12 +4,11 @@
 
 本章將會介紹幾種常見慣例：
 
-* 縮排慣例
-* 命名慣例
-* 迴圈慣例
-* 括號慣例
-* 布林慣例
-* 邏輯慣例
-* if / else 的 Fail Close 安全觀念
-* 三重運算子簡化 if / else
-* 其他慣例
+* [縮排慣例](indent.md)
+* [命名慣例](naming.md)
+* [迴圈慣例](loop.md)
+* [括號慣例](bracket.md)
+* [布林慣例](boolean.md)
+* [邏輯慣例](logic.md)
+* [字串慣例](string.md)
+* [陣列慣例](array.md)
