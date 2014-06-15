@@ -39,6 +39,7 @@
        * [CoffeeScript](chapter1-mvc/a/coffeescript.md)
 * [Chapter 2 - Rails 週邊知識](chapter2-rails/README.md)
    * [RESTful](chapter2-rails/restful.md)
+   * [DB migration](chapter2-rails/db_migration.md)
    * [Routing](chapter2-rails/routing.md)
    * [Rack](chapter2-rails/rack.md)
    * [Rake](chapter2-rails/rake.md)
