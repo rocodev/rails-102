@@ -50,7 +50,6 @@ RESTful Web Services 是使用 HTTP 並遵循 REST 設計原則的 Web Services�
 |一組資源的URI，比如http://example.com/resources/    | 在本組資源中創建/追加一個新的資源。 該操作往往返回新資源的URL。|
 |單個資源的URI，比如http://example.com/resources/142 | 把指定的資源當做一個資源組，並在其下創建/追加一個新的元素，使其隸屬於當前資源。|
 
-{::pagebreak :/}
 
 #### DELETE
 
@@ -171,7 +170,6 @@ REST 之所以能簡化開發，是因為其所引入的架構約束。Rails 中
   <%= link_to("Destroy", post_path(@post), :method => :delete )
 ```
 
-{::pagebreak :/}
 
 #### Form 綁定 Model Attribute 的設計
 
