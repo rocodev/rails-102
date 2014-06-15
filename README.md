@@ -17,3 +17,7 @@
 
 本書由 Rocodev 的 Yi-Ting Cheng (xdite) 與 Wayne Chu (wayne5540) 共同著作
 
+
+## 原始碼
+
+本書原始碼放置在 <http://github.com/rocodev/rails-102/> ，歡迎直接 fork 修正內容錯誤。
