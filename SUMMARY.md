@@ -11,8 +11,6 @@
        * [counter_cache](chapter1-mvc/m/counter-cache.md)
        * [STI](chapter1-mvc/m/sti.md)
        * [Polymorphic Assoiciaion](chapter1-mvc/m/polymorphic_assoiciaion.md)
-       * [附錄1 (TBD)](chapter1-mvc/m/helper_model.md)
-       * [附錄2 (TBD)](chapter1-mvc/m/refactor_controller_code_to_model.md)
    * [View](chapter1-mvc/v/what-is-view.md)
        * [什麼是 helper](chapter1-mvc/v/helper.md)
        * [什麼是 partial](chapter1-mvc/v/partial.md)

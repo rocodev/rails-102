@@ -1,18 +1,21 @@
-
-Refactor:
- ☐ refactor_controller_code_to_model
-
 Controller: 
  ☐ json builder
  ☐ rss builder
  ✔ Strong Parameters @done (14-06-15 06:32)
     ☐ Nested Attributes with Strong Parameters
 Helpers:
- ☐ Helper Patterns
- ☐ essential helpers
+ ✔ Helper Patterns @done (14-06-15 08:19)
+ ✔ essential helpers @done (14-06-15 08:19)
 
 Ruby:
 ☐ symbol
 ☐ String
 ☐ Array
 ☐ Hash
+  
+Refactor:
+  ☐ move code from helper to model
+  ☐ move controller code to model
+  ☐ move model code to concern
+  ☐ wrap controller code to service object
+  ☐ wrap tips : class / value object..etc
