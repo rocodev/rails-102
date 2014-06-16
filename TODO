@@ -1,6 +1,6 @@
 View:
  ✔ Nested form @done (14-06-16 16:21)
- ☐ helper_method and view_context
+ ✔ helper_method and view_context
 
 Controller: 
  ☐ json builder
