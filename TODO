@@ -12,9 +12,7 @@ Helpers:
 
 Ruby:
 ☐ symbol
-☐ String
-☐ Array
-☐ Hash
+☐ begin rescue 
   
 Refactor:
   ☐ move code from helper to model
