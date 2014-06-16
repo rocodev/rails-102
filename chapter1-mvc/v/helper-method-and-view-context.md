@@ -29,7 +29,7 @@ end
 ```
 這樣你就能在 View 裡面用 current_cart。
 ```ruby
-<%= find_cart.items %>
+<%= current_cart.items %>
 ```
 或者是 Controller 裡面也能用 current_cart。
 ```ruby
