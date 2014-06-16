@@ -24,8 +24,48 @@ end
 
 ## JSON builder
 
-TBD 
+可以參考 [jbuilder](https://github.com/rails/jbuilder) 生成 JSON 格式的資料。
 
 ## RSS Builder
 
-TBD
+RSS、ATOM 跟 Xml 是很像的東西，因為 RSS 、 ATOM 都是基於 Xml 格式的延伸應用，所以 Build 的方式跟 Xml 一樣，唯一需要注意的就是一些 RSS 規範中需要有的 Tag ，例如要有 rss version 的 tag ，並把要呈現的內容放在  channel tag 中：
+
+app/views/topics/index.rss.builder
+```builder
+xml.instruct! :xml, :version => "1.0"
+xml.rss :version => "2.0" do
+  xml.channel do
+    xml.title "Rails102"
+    xml.description "Intermediate to Rails"
+    xml.link root_url
+    for topic in @topics
+      xml.item do
+        xml.title topic.title
+        xml.description topic.content
+        xml.pubDate topic.created_at.to_s(:rfc822)
+        xml.link board_topic_url(topic.board_id, topic)
+        xml.guid board_topic_url(topic.board_id, topic)
+      end
+    end
+  end
+end
+```
+
+####補充：Generate RSS URI 的方法
+
+首先要讓 controller 可以 respond_to rss ，並且將 layout 預設為 false
+```ruby
+class TopicsController < ApplicationController
+  def index
+    @topcis = Topic.all
+    respond_to do |format|
+      format.html
+      format.rss { render :layout => false }
+    end
+  end
+end
+```
+之後再 html view 內加上 RSS 連結就完成了。
+```erb
+<%= link_to "+RSS", posts_url(format: "rss") %>
+```
