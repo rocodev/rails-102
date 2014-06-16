@@ -19,6 +19,7 @@
        * [yield in view](chapter1-mvc/v/yield-in-view.md)
        * [不應該放在 view 裡的東西](chapter1-mvc/v/not-in-view.md)
        * [form](chapter1-mvc/v/form.md)
+       * [Nested form](chapter1-mvc/v/nested-form.md)
        * [常見 helpers](chapter1-mvc/v/essential-helpers.md)
        * [helper patterns](chapter1-mvc/v/helper-patterns.md)
    * [Controller](chapter1-mvc/c/controller.md)
