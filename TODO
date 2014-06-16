@@ -1,5 +1,6 @@
 View:
  ✔ Nested form @done (14-06-16 16:21)
+ ☐ helper_method and view_context
 
 Controller: 
  ☐ json builder
@@ -10,9 +11,12 @@ Helpers:
  ✔ Helper Patterns @done (14-06-15 08:19)
  ✔ essential helpers @done (14-06-15 08:19)
 
+Rails:
+  ☐ cookie and session
+
 Ruby:
-☐ symbol
-☐ begin rescue 
+  ☐ symbol
+  ☐ begin rescue 
   
 Refactor:
   ☐ move code from helper to model
