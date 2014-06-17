@@ -3,7 +3,7 @@ View:
  ✔ helper_method and view_context
 
 Controller: 
- ☐ json builder
+ ✔ json builder @done (14-06-17 12:00)
  ✔ rss builder @done (14-06-16 16:54)
  ✔ Strong Parameters @done (14-06-15 06:32)
     ✔ Nested Attributes with Strong Parameters @done (14-06-16 16:00)

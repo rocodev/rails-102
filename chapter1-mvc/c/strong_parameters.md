@@ -49,7 +49,8 @@ end
 ```
 
 ### 2.在 Controller 中指定接收的 Attributes
-由於我們在 People Controller 內的 Strong Parameters 並不包含 color 這個 Attributes，所以在新增 Hat 的時候就無法把 color 寫進資料庫，這時候需要加上 `hats_attributes: []` 這個 Attributes，並且將要傳的 Hat Attributes 寫進 Array 中：
+
+由於我們在 People Controller 內的 Strong Parameters 並不包含 color 這個 attributes，所以在新增 Hat 的時候就無法把 color 寫進資料庫，這時候需要加上 `hats_attributes: []` 這個 Attributes，並且將要傳的 Hat Attributes 寫進 Array 中：
 
 ``` ruby
 class PeopleController < ActionController::Base
