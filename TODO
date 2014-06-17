@@ -16,7 +16,7 @@ Rails:
 
 Ruby:
   ✔ symbol @done (14-06-17 12:02)
-  ☐ begin rescue 
+  ☐ begin rescue @not completed yet (14-06-17 17:55)
   
 Refactor:
   ☐ move code from helper to model

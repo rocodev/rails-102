@@ -57,6 +57,7 @@
    * [instance variable / class variable](chapter3-ruby/instance_variable_class_variable.md)
    * [Mixin / Extend / Inheritance](chapter3-ruby/mixin_extend_inheritance.md)
    * [override](chapter3-ruby/override.md)
+   * [begin rescue](chapter3-ruby/begin-rescue.md)
 * [Chapter 4 - Ruby 撰碼慣例](chapter4-ruby/README.md)
    * [縮排慣例](chapter4-ruby/indent.md)
    * [命名慣例](chapter4-ruby/naming.md)
