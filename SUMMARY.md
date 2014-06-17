@@ -45,6 +45,7 @@
    * [Rake](chapter2-rails/rake.md)
    * [Bundler](chapter2-rails/bundler.md)
    * [I18n](chapter2-rails/i18n.md)
+   * [Cookies & Session](chapter2-rails/cookies-and-session.md)
 * [Chapter 3 - Ruby 基本常識](chapter3-ruby/README.md)
    * [Ruby syntax](chapter3-ruby/ruby_syntax.md)
        * [map](chapter3-ruby/map.md)
