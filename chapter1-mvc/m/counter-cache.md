@@ -12,7 +12,7 @@
 
 這代表每次我們要算數量的時候都得下一個sql指令去算有多少topics，一樣是會造成效能問題。
 
-所以 Rails 內建了 `counter_cache` 的方法，我們只要在 Tipic model 內加上`counter_cache: true`
+所以 Rails 內建了 `counter_cache` 的方法，我們只要在 Topic model 內加上`counter_cache: true`
 
 ```ruby
 class Topic < ActiveRecord::Base

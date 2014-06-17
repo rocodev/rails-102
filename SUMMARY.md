@@ -23,7 +23,7 @@
        * [常見 helpers](chapter1-mvc/v/essential-helpers.md)
        * [helper patterns](chapter1-mvc/v/helper-patterns.md)
        * [helper_method 與 view_context](chapter1-mvc/v/helper-method-and-view-context.md)
-   * [Controller](chapter1-mvc/c/controller.md)
+   * [Controller](chapter1-mvc/c/what-is-controller.md)
        * [Filters : before_action, after_action, around_action](chapter1-mvc/c/filters.md)
        * [Strong Parameters](chapter1-mvc/c/strong_parameters.md)
        * [render :template](chapter1-mvc/c/render-template.md)
