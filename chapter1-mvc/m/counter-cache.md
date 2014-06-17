@@ -7,7 +7,7 @@
 正常我們會寫類似下方的程式碼來算出這個 Board 內有多少個 Topics：
 
 ```ruby
-@board.topics.count
+@board.topics.size
 ```
 
 這代表每次我們要算數量的時候都得下一個sql指令去算有多少topics，一樣是會造成效能問題。
@@ -22,7 +22,7 @@ end
 
 然後在 Board 的資料庫內新增一個叫做`topics_count`的欄位
 
-這樣以後當這個 Board內的 topics 有增減的時候，Rails就會幫我們增減`topics_count`的欄位，如此一來下次再下`@board.topics.count`的指令時 Rails就會預設去找`topics_count`的欄位，不用重新下 SQL指令計算。
+這樣以後當這個 Board內的 topics 有增減的時候，Rails就會幫我們增減`topics_count`的欄位，如此一來下次再下`@board.topics.size`的指令時 Rails就會預設去找`topics_count`的欄位，不用重新下 SQL指令計算。
 
 ### 自定 Counter Cache 欄位：
 
