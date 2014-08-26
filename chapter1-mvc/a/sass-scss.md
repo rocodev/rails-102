@@ -135,10 +135,12 @@ Sass 也提供了其他便利功能，如變數、函數、數學、繼承、mix
 ``` sass
    .content
       width: (500px/2);
+```
+
 生成
 
 ``` css
-   .content{ width: 250px; }
+   .content { width: 250px; }
 ```
 
 #### 內建函式
