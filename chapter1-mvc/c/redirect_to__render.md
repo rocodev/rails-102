@@ -1,6 +1,6 @@
-# redirec_to 與 render
+# redirect_to 與 render
 
-`redirec_to`通常使用在要讓使用者跳轉頁面的時候，會執行指定頁面的controller action。
+`redirect_to`通常使用在要讓使用者跳轉頁面的時候，會執行指定頁面的controller action。
 
 而`render`則是將指定頁面的樣板拿出來而已，並沒有執行controller。
 
