@@ -10,7 +10,7 @@ Helper 是以 module 的形態存在的，在 Rails內 負責寫 View 要用到�
 
 我們也可以在 partial 內搭配 helper，這也是讓 view 變乾淨的好方法。
 
-由於要讓 helper 保持「簡單」且「可重副使用」，在設計 helper 時應該讓h elper只「做一件事情」。（例如:判斷是否能編輯文章、回傳文章的連結按鈕）
+由於要讓 helper 保持「簡單」且「可重副使用」，在設計 helper 時應該讓helper只「做一件事情」。（例如:判斷是否能編輯文章、回傳文章的連結按鈕）
 
 這樣做的好處是這個 helper就會變得重複使用性很高（畢竟很多地方都需要判斷是否能編輯文章），就不會變成為了某個特定的 view 寫了一個 helper 卻只能用到一次，落實 Don't Repeat Yourself 的 Rails精神。
 

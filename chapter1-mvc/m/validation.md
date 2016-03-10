@@ -11,7 +11,7 @@ class Topic < ActiveRecord::Base
   # presence: true代表這個資料必須有值
   validates :title, presence: true
   # content最多只能200字
-  validates :content, length: { maxmum: 200 }
+  validates :content, length: { maximum: 200 }
 end
 ```
 

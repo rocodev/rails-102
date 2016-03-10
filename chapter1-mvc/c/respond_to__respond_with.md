@@ -1,6 +1,6 @@
 # respond_to 與 respond_with
 
-respond_to可以用來回應不同的資料格式，如果使用者要get www.example.com/ex.xml，rails會先尋找`ex.xml.erb`和`ex.xml.buulder`，最後會找`ex.html.erb`的檔案。
+respond_to可以用來回應不同的資料格式，如果使用者要get www.example.com/ex.xml，rails會先尋找`ex.xml.erb`和`ex.xml.builder`，最後會找`ex.html.erb`的檔案。
 
 ```ruby
 def index

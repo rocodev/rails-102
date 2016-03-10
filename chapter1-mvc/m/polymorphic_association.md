@@ -1,4 +1,4 @@
-# Polymorphic Assoiciaion
+# Polymorphic Association
 
 Polymorphic Associations是 Rails 內可以讓兩個不同的 Model 同時 has_many 一個 model的做法，最常見的情況就是要做留言系統的時候。
 
