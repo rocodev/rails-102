@@ -1,7 +1,7 @@
 # collect(&:id)
 
 
-基本上跟[map](../chapter3-ruby/map.md)是一樣的東西，collect做的事情就是將array內的資料一一拿出來處理，處理完後再傳回array
+基本上跟[map](../../chapter3-ruby/map.md)是一樣的東西，collect做的事情就是將array內的資料一一拿出來處理，處理完後再傳回array
 所以`topics.collect(&:id)`就是把topics內所有的id都拿出來存成另一個array
 
 ex:
