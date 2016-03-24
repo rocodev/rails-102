@@ -5,7 +5,7 @@
 ``` ruby
 10.times {|n| puts "This is #{n}"}
 
-10.times.do |n|
+10.times do |n|
   puts "This is #{n}"
   puts "That is #{n*2}"
 end
