@@ -29,4 +29,4 @@ f.foo # => "instance method"
 f.foobar # => "instance method"
 ```
 
-此章節建議搭配[instance method / class method](instance_method__class_method.md)和[instance variable / class variable](instance_variable__class_variable.md)一起觀看。
+此章節建議搭配[instance method / class method](instance_method_class_method.md)和[instance variable / class variable](instance_variable_class_variable.md)一起觀看。
